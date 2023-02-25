@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:learnprov/provider/consumerProvider.dart';
+import 'package:learnprov/ofContext.dart';
+import 'package:learnprov/provider/ProviderModel.dart';
 import 'package:provider/provider.dart';
 
 class consumerPage extends StatelessWidget {
@@ -52,6 +53,8 @@ class consumerPage extends StatelessWidget {
                       child: Text("change name 2"));
                 },
               ),
+              //of context provider
+              ofContext()
             ],
           ),
         ),

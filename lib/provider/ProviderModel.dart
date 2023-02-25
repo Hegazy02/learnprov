@@ -15,3 +15,19 @@ class prov extends ChangeNotifier {
     notifyListeners();
   }
 }
+
+class provTwo extends ChangeNotifier {
+  String? nameTwo = "Omer";
+  String? nameTwo2 = "Saleh";
+  changenameTwo() {
+    nameTwo = "Hegazy";
+
+    notifyListeners();
+  }
+
+  changenameTwo2() {
+    nameTwo2 = "Kareem";
+
+    notifyListeners();
+  }
+}
